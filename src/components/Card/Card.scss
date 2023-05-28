@@ -1,0 +1,22 @@
+.card-container {
+	border: 1px solid gray;
+	padding: 1.5rem;
+	text-align: center;
+	background-color: #fff;
+}
+.card-icon {
+	background-color: #8a2be2;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 1rem;
+	padding: 1rem;
+	color: #fff;
+	width: fit-content;
+	margin: 0 auto;
+}
+.card-title {
+	color: #03001c;
+	font-size: 1.2rem;
+}

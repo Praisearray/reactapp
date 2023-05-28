@@ -1,0 +1,110 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e9e8e8;
+  padding: 0 1rem;
+  background-color: #fff;
+  transition: all 0.7s ease-in;
+  z-index: 1000;
+}
+.scrolled {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.logo-container {
+  span {
+    color: #8a2be2;
+  }
+}
+.hamburger-menu {
+  display: flex;
+  flex-direction: column;
+  > span {
+    height: 4px;
+    width: 30px;
+    background-color: #1a1a1a;
+    margin-bottom: 0.4rem;
+    border-radius: 4px;
+    transition: transform 0.3s ease-in-out;
+  }
+}
+.open {
+  span {
+    &:first-child {
+      transform: rotate(45deg) translate(10px, 5px);
+    }
+    &:nth-child(2) {
+      opacity: 0;
+    }
+    &:last-child {
+      transform: rotate(-45deg) translate(10px, -5px);
+    }
+  }
+}
+.contact-links {
+  display: none;
+  align-items: center;
+  transition: all 0.3s ease-in;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 1rem;
+}
+.contact-icon {
+  color: #8a2be2;
+  margin-right: 0.5rem;
+  cursor: pointer;
+}
+.contact-label {
+  color: #1a1a1a;
+  margin: 0.5rem 0;
+  font-weight: bold;
+  display: none;
+}
+.contact-link {
+  > p {
+    margin: 0;
+  }
+}
+.discuss-project-btn {
+  padding: 1rem 1.5rem;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #8a2be2;
+  color: #fff;
+}
+.show-menu {
+  display: flex;
+  position: absolute;
+  top: 69px;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  box-shadow: 0 15px 10px -15px gray;
+  padding: 1.5rem 0;
+  text-align: center;
+  .contact {
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contact-links {
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact-links {
+    display: flex;
+    flex-direction: row;
+  }
+  .hamburger-menu {
+    display: none;
+  }
+}
