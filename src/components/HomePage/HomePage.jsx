@@ -18,81 +18,82 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import CoPresentIcon from "@mui/icons-material/CoPresent";
 import MoveDownIcon from "@mui/icons-material/MoveDown";
 import DomainVerificationIcon from "@mui/icons-material/DomainVerification";
+import WhyChooseUs from "../WhyChooseUs/WhyChooseUs";
 
 function HomePage() {
   const cards = [
     {
       title: "Pixel Perfect Design",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Create visually stunning websites with pixel-perfect designs, ensuring flawless precision and an exceptional user experience.",
       icon: <DesignServicesIcon sx={{ fontSize: "50px" }} />,
     },
     {
       title: "Full Documentation",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Comprehensive website documentation for smooth maintenance and seamless updates. Simplify your development process.",
       icon: <DescriptionIcon sx={{ fontSize: "50px" }} />,
     },
     {
       title: "Reasonable Pricing",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Unlock the perfect balance of quality and affordability with our reasonable pricing options for exceptional website development.",
       icon: <PaymentsIcon sx={{ fontSize: "50px" }} />,
     },
     {
       title: "Happy Clients",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Our satisfied clients are our pride, fueling our commitment to delivering outstanding results and exceeding expectations.",
       icon: <InsertEmoticonIcon sx={{ fontSize: "50px" }} />,
     },
   ];
   const technologies = [
     {
       title: "Node JS",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Node.js, a leading tool for web development, offers a scalable and efficient platform for building high-performance websites with JavaScript.",
       image: nodejsIcon,
     },
     {
       title: "React JS",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "React.js, a top choice for web development, empowers developers to create dynamic and interactive user interfaces with reusable components.",
       image: reactIcon,
     },
     {
       title: "Angular JS",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "AngularJS: A powerful framework for dynamic single-page applications, simplifying web development with rich features and seamless integration.",
       image: angularIcon,
     },
     {
       title: "Vue JS",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Vue.js, a versatile tool for website development, enables developers to build interactive and scalable user interfaces with ease and flexibility.",
       image: vuejsIcon,
     },
   ];
   const services = [
     {
       title: "Website Development",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Unleash your digital presence with our exceptional website development services. Elevate your online success today!",
       icon: <LanguageIcon sx={{ fontSize: "70px" }} />,
     },
     {
       title: "Technical Support",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Stay ahead with our reliable technical support for seamless website maintenance. Empowering your online presence!",
       icon: <SupportAgentIcon sx={{ fontSize: "70px" }} />,
     },
     {
       title: "Web Accessibility",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Enhance inclusivity with our Web Accessibility solutions, ensuring equal access to your website. Empower every user!",
       icon: <WebIcon sx={{ fontSize: "70px" }} />,
     },
     {
       title: "Trainings",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Expand your expertise with our comprehensive JS frameworks training. Unlock new possibilities in web development!",
       icon: <CoPresentIcon sx={{ fontSize: "70px" }} />,
     },
     {
-      title: "Migration of JS Frameworks",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      title: "JS Framework Upgrade",
+      desc: "Enhance your web development capabilities with our expert JS framework upgrades. Stay ahead of the curve!",
       icon: <MoveDownIcon sx={{ fontSize: "70px" }} />,
     },
     {
       title: "UI Test Automation",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit nullam nunc justo sagittis suscipit ultrices",
+      desc: "Streamline your development process with our efficient UI test automation solutions. Optimize your website performance!",
       icon: <DomainVerificationIcon sx={{ fontSize: "70px" }} />,
     },
   ];
@@ -128,26 +129,26 @@ function HomePage() {
             </p>
             <h2>Smart, Curious, Hands On.</h2>
             <p className="info-content">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum
-              natus sapiente provident iste, veniam cupiditate voluptatem
-              dolorum commodi error dolores laborum totam impedit facere eius
-              quaerat delectus optio. Quibusdam dolores repellat voluptas
-              excepturi, saepe earum labore deleniti temporibus sit in.
+              Unlock the effortless path to building flawless websites. Harness
+              powerful tools, intuitive interfaces, and expert guidance to
+              create stunning online experiences effortlessly and efficiently.
+              Start crafting your dream website today. Transform your vision
+              into reality with our comprehensive web development solutions!
             </p>
           </div>
           <div className="sub-info-container">
             <div className="sub-info">
               <h4>Creative Solutions</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deserunt, beatae.
+                Unleash your creativity with our innovative web solutions that
+                captivate and inspire.
               </p>
             </div>
             <div className="sub-info">
               <h4>Clean code</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Deserunt, beatae.
+                Experience the power of clean code for efficient and optimal
+                website performance.
               </p>
             </div>
           </div>
@@ -189,6 +190,7 @@ function HomePage() {
           })}
         </div>
       </div>
+      <WhyChooseUs />
     </div>
   );
 }
