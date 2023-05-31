@@ -1,13 +1,54 @@
 .footer-container {
   background-color: #1a1a1a;
-  color: #fff;
-  padding: 1.5rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-top: 1px solid #292929;
-  & > p {
-    margin: 0.5rem 0;
+  .footer-contact-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+
+    .footer-contact-info {
+      width: 100%;
+      padding: 2rem 0;
+      color: #fff;
+
+      address {
+        font-style: normal;
+      }
+
+      .contact-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 1.5rem;
+        .contact-info-icon {
+          color: #8a2be2;
+          margin-right: 0.7rem;
+        }
+        p {
+          width: 60%;
+          margin: 0;
+        }
+      }
+    }
+
+    .map-container {
+      width: 100%;
+      padding: 2rem 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .footer-last-section {
+    color: #fff;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #292929;
+    & > p {
+      margin: 0.5rem 0;
+    }
   }
 }
 .footer-links {
@@ -21,5 +62,32 @@
   &:hover {
     color: #8a2be2;
     transition: all 0.3s ease-in;
+  }
+}
+@media screen and (min-width: 320px) {
+  .footer-contact-section {
+    flex-direction: column;
+  }
+  .footer-btn-container {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-contact-section {
+    flex-direction: row;
+
+    .footer-contact-info {
+      padding: 2rem 4rem;
+      width: 48%;
+
+      .footer-btn-container {
+        width: 60%;
+        text-align: left;
+        margin: 0 auto;
+      }
+    }
+    .map-container {
+      width: 48%;
+    }
   }
 }

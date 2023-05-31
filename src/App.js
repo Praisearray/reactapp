@@ -15,7 +15,7 @@ function App() {
         open={openModal}
         handleClose={() => setOpenModal(false)}
       />
-      <Footer />
+      <Footer setOpenModal={setOpenModal} />
     </>
   );
 }
