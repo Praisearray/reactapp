@@ -45,7 +45,7 @@ function Navbar(props) {
         <div className="contact">
           <CallIcon sx={{ fontSize: "30px" }} className="contact-icon" />
           <div className="contact-link">
-            <p>+91 7721022233</p>
+            <p>+91 9657135605</p>
           </div>
         </div>
         <button

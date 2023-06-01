@@ -23,7 +23,7 @@ function Footer(props) {
           </address>
           <div className="contact-info">
             <CallIcon className="contact-info-icon" />
-            <p>+91 7721022233</p>
+            <p>+91 9657135605</p>
           </div>
           <div className="contact-info">
             <EmailIcon className="contact-info-icon" />
