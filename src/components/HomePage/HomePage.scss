@@ -110,6 +110,11 @@
 .offering-card {
   width: 80%;
 }
+@media screen and (min-width: 480px) {
+  .home-card {
+    width: 45%;
+  }
+}
 @media screen and (min-width: 768px) {
   .home-tagline {
     padding: 5rem 0 0 2rem;

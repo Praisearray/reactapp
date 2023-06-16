@@ -29,7 +29,7 @@ function HomePage() {
     },
     {
       title: "Full Documentation",
-      desc: "Comprehensive website documentation for smooth maintenance and seamless updates. Simplify your development process.",
+      desc: "Complete website documentation for smooth maintenance and seamless updates. Simplify your development process.",
       icon: <DescriptionIcon sx={{ fontSize: "50px" }} />,
     },
     {
@@ -67,7 +67,7 @@ function HomePage() {
   ];
   const services = [
     {
-      title: "Website Development",
+      title: "Web Application Development",
       desc: "Unleash your digital presence with our exceptional website development services. Elevate your online success today!",
       icon: <LanguageIcon sx={{ fontSize: "70px" }} />,
     },
@@ -87,7 +87,7 @@ function HomePage() {
       icon: <CoPresentIcon sx={{ fontSize: "70px" }} />,
     },
     {
-      title: "JS Framework Upgrade",
+      title: "UI Upgradation",
       desc: "Enhance your web development capabilities with our expert JS framework upgrades. Stay ahead of the curve!",
       icon: <MoveDownIcon sx={{ fontSize: "70px" }} />,
     },

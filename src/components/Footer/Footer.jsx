@@ -16,18 +16,30 @@ function Footer(props) {
         <div className="footer-contact-info">
           <address className="contact-info">
             <RoomIcon className="contact-info-icon" />
-            <p>
+            <a
+              href="https://www.google.com/maps/place/Praise+Array/@18.4799375,73.8574173,18.16z/data=!4m6!3m5!1s0x3bc2eaa6f0f31bfd:0xf8106b91d8a0b29b!8m2!3d18.480099!4d73.8571271!16s%2Fg%2F11svb8pkzy?entry=ttu"
+              target="_blank"
+              rel="noreferrer"
+            >
               SNO 686/2A/2B SATARA ROAD FLAT NO 3 BIBAVEWADI Pune City ,
               Maharashtra.
-            </p>
+            </a>
           </address>
           <div className="contact-info">
             <CallIcon className="contact-info-icon" />
-            <p>+91 9657135605</p>
+            <a href="tel:+91 9657135605" target="_blank" rel="noreferrer">
+              +91 9657135605
+            </a>
           </div>
           <div className="contact-info">
             <EmailIcon className="contact-info-icon" />
-            <p>admin@praisearray.com</p>
+            <a
+              href="mailto:admin@praisearray.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              admin@praisearray.com
+            </a>
           </div>
           <div className="footer-btn-container">
             <button
