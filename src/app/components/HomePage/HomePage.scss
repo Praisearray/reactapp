@@ -1,0 +1,155 @@
+.home-image-container {
+  background-image: url("../../../../public/home-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  color: #fff;
+}
+.home-tagline {
+  padding: 4rem 0 0 2rem;
+  width: 50%;
+}
+.main-text {
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+.sub-text {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5rem;
+}
+.home-page-cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3.5rem 0 2rem 0;
+  flex-wrap: wrap;
+}
+.home-card {
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+.home-info-container {
+  background-image: url("../../../../public/work-desk.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 125vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.home-info-content {
+  width: 80%;
+  padding: 2rem;
+}
+.main-info {
+  background-color: #f8f8f8;
+  padding: 2rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.info-content {
+  color: #111111;
+}
+.main-info-header {
+  color: #8a2be2;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.sub-info-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.sub-info {
+  background-color: #f8f8f8;
+  padding: 2rem 1.5rem;
+  margin-bottom: 1rem;
+}
+.technologies-section {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 3rem 0 2rem 0;
+  > h2 {
+    color: #8a2be2;
+    margin: 0 0 2rem 0;
+    font-size: 2.2rem;
+  }
+  > p {
+    color: #fff;
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+}
+.start-quote {
+  transform: rotate(180deg);
+}
+.technologies {
+  padding: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.our-offerings {
+  padding: 2rem 0;
+}
+.offerings-title {
+  color: #8a2be2;
+  font-size: 2.2rem;
+  text-align: center;
+}
+.offerings {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 1rem;
+  flex-wrap: wrap;
+}
+.offering-card {
+  width: 80%;
+}
+@media screen and (min-width: 480px) {
+  .home-card {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .home-tagline {
+    padding: 5rem 0 0 2rem;
+  }
+  .main-text {
+    font-size: 4.5rem;
+    width: 85%;
+  }
+  .sub-text {
+    font-size: 1.5rem;
+  }
+  .home-page-cards {
+    margin-top: -100px;
+  }
+  .home-card {
+    width: 20%;
+  }
+  .home-info-container {
+    height: 100vh;
+    background-position: center;
+  }
+  .home-info-content {
+    width: 40%;
+    padding: 5rem 2rem;
+  }
+  .sub-info-container {
+    flex-direction: row;
+  }
+  .sub-info {
+    width: 40%;
+  }
+  .offerings {
+    padding: 0 2rem;
+  }
+  .offering-card {
+    width: 27%;
+  }
+}
