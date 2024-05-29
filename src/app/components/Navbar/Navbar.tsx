@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import EmailIcon from "@mui/icons-material/Email";
-import CallIcon from "@mui/icons-material/Call";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import "./Navbar.scss";
 
 function Navbar(props:any) {
@@ -45,7 +45,9 @@ function Navbar(props:any) {
           </div>
         </div>
         <div className="contact">
-          <CallIcon sx={{ fontSize: "30px" }} className="contact-icon animate-icon" />
+          <a href="https://wa.me/919657135605" target="_blank" rel="noopener noreferrer">
+            <WhatsAppIcon sx={{ fontSize: "30px" }} className="contact-icon animate-icon" />
+          </a>
           <div className="contact-link">
             <p>+91 9657135605</p>
           </div>

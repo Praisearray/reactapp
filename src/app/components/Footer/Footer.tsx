@@ -5,7 +5,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import RoomIcon from "@mui/icons-material/Room";
 import EmailIcon from "@mui/icons-material/Email";
-import CallIcon from "@mui/icons-material/Call";
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import LocationMap from "../LocationMap/LocationMap";
 
 function Footer(props:any) {
@@ -26,10 +26,12 @@ function Footer(props:any) {
             </a>
           </address>
           <div className="contact-info">
-            <CallIcon className="contact-info-icon" />
-            <a href="tel:+91 9657135605" target="_blank" rel="noreferrer">
+            <WhatsAppIcon className="contact-icon" />
+            <a href="https://wa.me/919657135605" target="_blank" rel="noopener noreferrer">
               +91 9657135605
             </a>
+            <div className="contacts">
+            </div>
           </div>
           <div className="contact-info">
             <EmailIcon className="contact-info-icon" />
